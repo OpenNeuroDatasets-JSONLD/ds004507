@@ -1,7 +1,14 @@
 {
     "participant_id": {
         "LongName": "Participant ID",
-        "Description": "Unique ID"
+        "Description": "Unique ID",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Participant ID"
+            },
+            "VariableType": "Identifier"
+        }
     },
     "sex": {
         "LongName": "Participant gender",
@@ -18,5 +25,14 @@
     "height": {
         "LongName": "Participant height",
         "Description": "cm"
+    },
+    "sex ": {
+        "Description": ""
+    },
+    "age ": {
+        "Description": ""
+    },
+    "date_of_scan    ": {
+        "Description": ""
     }
 }
